@@ -1,0 +1,29 @@
+{
+    "BossAi": {
+        "checkpoints": [
+            {
+                "steps": 85472,
+                "file_path": "results\\Test2\\BossAi\\BossAi-85472.onnx",
+                "reward": null,
+                "creation_time": 1693055271.384031,
+                "auxillary_file_paths": [
+                    "results\\Test2\\BossAi\\BossAi-85472.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 85472,
+            "file_path": "results\\Test2\\BossAi.onnx",
+            "reward": null,
+            "creation_time": 1693055271.384031,
+            "auxillary_file_paths": [
+                "results\\Test2\\BossAi\\BossAi-85472.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.0.1+cpu"
+    }
+}

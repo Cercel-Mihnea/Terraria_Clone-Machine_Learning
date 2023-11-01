@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1693399256",
+        "python_version": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Weebston\\Desktop\\Unity\\BossBattle_2.0\\venv\\Scripts\\mlagents-learn config\\BossAi.yaml --run-id=NewTest1",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.0.1+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1693399259"
+    },
+    "total": 3.0860414000000005,
+    "count": 1,
+    "self": 0.007333600000000828,
+    "children": {
+        "run_training.setup": {
+            "total": 0.09407960000000015,
+            "count": 1,
+            "self": 0.09407960000000015
+        },
+        "TrainerController.start_learning": {
+            "total": 2.9846281999999995,
+            "count": 1,
+            "self": 0.00037189999999975853,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 2.9842470000000003,
+                    "count": 1,
+                    "self": 2.9842470000000003
+                },
+                "trainer_threads": {
+                    "total": 1.1999999998124622e-06,
+                    "count": 1,
+                    "self": 1.1999999998124622e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 8.099999999622298e-06,
+                    "count": 1,
+                    "self": 8.099999999622298e-06
+                }
+            }
+        }
+    }
+}

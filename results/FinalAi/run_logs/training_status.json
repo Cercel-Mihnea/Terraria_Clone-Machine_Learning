@@ -1,0 +1,65 @@
+{
+    "BossAi": {
+        "checkpoints": [
+            {
+                "steps": 120526,
+                "file_path": "results\\Test4\\BossAi\\BossAi-120526.onnx",
+                "reward": 4.777422386822093,
+                "creation_time": 1693057109.498423,
+                "auxillary_file_paths": [
+                    "results\\Test4\\BossAi\\BossAi-120526.pt"
+                ]
+            },
+            {
+                "steps": 147137,
+                "file_path": "results\\Test4\\BossAi\\BossAi-147137.onnx",
+                "reward": 4.756931896703652,
+                "creation_time": 1693057477.4820027,
+                "auxillary_file_paths": [
+                    "results\\Test4\\BossAi\\BossAi-147137.pt"
+                ]
+            },
+            {
+                "steps": 156444,
+                "file_path": "results\\Test4\\BossAi\\BossAi-156444.onnx",
+                "reward": 2.4730693985625067,
+                "creation_time": 1693059798.2603447,
+                "auxillary_file_paths": [
+                    "results\\Test4\\BossAi\\BossAi-156444.pt"
+                ]
+            },
+            {
+                "steps": 195233,
+                "file_path": "results\\Test4\\BossAi\\BossAi-195233.onnx",
+                "reward": 3.178357286964144,
+                "creation_time": 1693060241.84224,
+                "auxillary_file_paths": [
+                    "results\\Test4\\BossAi\\BossAi-195233.pt"
+                ]
+            },
+            {
+                "steps": 235529,
+                "file_path": "results\\Test4\\BossAi\\BossAi-235529.onnx",
+                "reward": 3.3588597774505615,
+                "creation_time": 1693060800.0433452,
+                "auxillary_file_paths": [
+                    "results\\Test4\\BossAi\\BossAi-235529.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 235529,
+            "file_path": "results\\Test4\\BossAi.onnx",
+            "reward": 3.3588597774505615,
+            "creation_time": 1693060800.0433452,
+            "auxillary_file_paths": [
+                "results\\Test4\\BossAi\\BossAi-235529.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.0.1+cpu"
+    }
+}
